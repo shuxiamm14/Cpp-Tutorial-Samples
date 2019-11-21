@@ -11,7 +11,7 @@ int main()
 	cout << "Index" << setw(8) << "Value" << setw(14) << "Histogram" << endl << endl;
 
 	for (int i=0 ; i < 10 ; i++)
-	{
+	{         //setw() 设置域宽度 就是setw(5)设置5个域宽度的空格
 		cout << setw(5) << i+1 << setw(8) << Figures[i] << setw(6);
 		DrawAsterisk(Figures[i]);
 		cout << endl;
